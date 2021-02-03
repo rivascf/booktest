@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/table-of-contents/with-toc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/table-of-contents/without-toc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/DescriptionOfPositionAndOrientation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/ForwardKinematicsOfManipulators/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/InverseKinematicsOfManipulators/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/VelocitiesStaticForcesSingularitiees/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/posts/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/posts/migrate-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/Dynamics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/TrajectoryGeneration/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/ManipulatorDesignAndSensors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/Linear-Position-Control/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/Nonlinear-position-control/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/ForceControl/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/ProgrammingRobots/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/OfflineProgrammingAndSimulation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/_Notation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/collapsed/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/table-of-contents/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/posts/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/posts/goisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/categories/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/categories/Development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/posts/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/tags/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/tags/templates/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/tags/themes/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/collapsed/3rd-level/4th-level/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/collapsed/3rd-level/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/hidden/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/shortcodes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/shortcodes/buttons/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/shortcodes/columns/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/shortcodes/details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/shortcodes/expand/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/shortcodes/hints/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/shortcodes/katex/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/shortcodes/mermaid/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/shortcodes/section/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/shortcodes/section/page1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/shortcodes/section/page2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/shortcodes/tabs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rivascf.github.io/booktest/docs/example/PAST_indexCONTENT/</loc>
+  </url>
+  
+</urlset>

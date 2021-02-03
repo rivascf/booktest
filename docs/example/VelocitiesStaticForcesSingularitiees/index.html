@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta name="generator" content="Hugo 0.78.2" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Velocities, Static Forces, Singularities #  In addition to dealing with static positioning problems, we may wish to analyze manipulators in motion. Often, in performing velocity analysis of a mechanism, it is convenient to define a matrix quantity called the Jacobian of the manipulator. The Jacobian specifies a mapping from velocities in joint space to velocities in Cartesian space. (See Fig. 1.8.) The nature of this mapping changes as the configuration of the manipulator varies.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://rivascf.github.io/booktest/docs/example/VelocitiesStaticForcesSingularitiees/" />
+
+<title>Velocities Static Forces Singularitiees | Introduction to Robotics and Control documentation site</title>
+<link rel="manifest" href="/booktest/manifest.json">
+<link rel="icon" href="/booktest/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/booktest/book.min.134b70e5316650a530cb42e4e8630b2a01d532bebfc0337028211175336e4806.css" integrity="sha256-E0tw5TFmUKUwy0Lk6GMLKgHVMr6/wDNwKCERdTNuSAY=">
+<script defer src="/booktest/en.search.min.640b584435d2b360de01213aa06e1c6d943c4d46a175afa97aaf03c458b44a05.js" integrity="sha256-ZAtYRDXSs2DeASE6oG4cbZQ8TUahda&#43;peq8DxFi0SgU="></script>
+<link rel="alternate" type="application/rss+xml" href="https://rivascf.github.io/booktest/docs/example/VelocitiesStaticForcesSingularitiees/index.xml" title="Introduction to Robotics and Control documentation site" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/booktest"><span>Introduction to Robotics and Control documentation site</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/" class="">1.2 The Mechanics and Control of Mechanical Manipulators</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/DescriptionOfPositionAndOrientation/" class="">Description of Position and Orientation</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/ForwardKinematicsOfManipulators/" class="">Forward Kinematics of Manipulators</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/InverseKinematicsOfManipulators/" class="">Inverse Kinematics of Manipulators</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/VelocitiesStaticForcesSingularitiees/" class=" active">Velocities Static Forces Singularitiees</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/Dynamics/" class="">Dynamics</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/TrajectoryGeneration/" class="">Trajectory Generation</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/ManipulatorDesignAndSensors/" class="">Manipulator Design and Sensors</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/Linear-Position-Control/" class="">Linear Position Control</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/Nonlinear-position-control/" class="">Nonlinear Position Control</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/ForceControl/" class="">Force Control</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/ProgrammingRobots/" class="">Programming Robots</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/OfflineProgrammingAndSimulation/" class="">Offline Programming and Simulation</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/_Notation/" class="">1.3 NOTATION</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4e46b01272d410b3a99461d79326ddf4" class="toggle"  />
+    <label for="section-4e46b01272d410b3a99461d79326ddf4" class="flex justify-between">
+      <a  class="">Collapsed</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/collapsed/3rd-level/" class="">3rd Level</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/collapsed/3rd-level/4th-level/" class="">4th Level</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/table-of-contents/" class="">Table of Contents</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/table-of-contents/with-toc/" class="">With ToC</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/table-of-contents/without-toc/" class="">Without ToC</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/example/PAST_indexCONTENT/" class="">Past page for referencies. DONT MIND THIS</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Shortcodes</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/shortcodes/buttons/" class="">Buttons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/shortcodes/columns/" class="">Columns</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/shortcodes/details/" class="">Details</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/shortcodes/expand/" class="">Expand</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/shortcodes/hints/" class="">Hints</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/shortcodes/katex/" class="">Katex</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/shortcodes/mermaid/" class="">Mermaid</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d3fc1bf6d66cd84b896a0af9f40cb1d5" class="toggle"  />
+    <label for="section-d3fc1bf6d66cd84b896a0af9f40cb1d5" class="flex justify-between">
+      <a href="https://rivascf.github.io/booktest/docs/shortcodes/section/" class="">Section</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/shortcodes/section/page1/" class="">Page1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/shortcodes/section/page2/" class="">Page2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rivascf.github.io/booktest/docs/shortcodes/tabs/" class="">Tabs</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/booktest/posts/" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/booktest/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Velocities Static Forces Singularitiees</strong>
+
+  <label for="toc-control">
+    
+    <img src="/booktest/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents"></nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="velocities-static-forces-singularities">
+  Velocities, Static Forces, Singularities
+  <a class="anchor" href="#velocities-static-forces-singularities">#</a>
+</h1>
+<p>In addition to dealing with static positioning problems, we may wish to analyze manipulators in motion. Often, in performing velocity analysis of a mechanism, it is convenient to define a matrix quantity called the <strong>Jacobian</strong> of the manipulator. The Jacobian specifies a mapping from velocities in joint space to velocities in Cartesian space. (See Fig. 1.8.) The nature of this <strong>mapping</strong> changes as the configuration of the manipulator varies. At certain points, called <strong>singularities</strong>, this mapping is not invertible. An understanding of the phenomenon is important to designers and users of manipulators.</p>
+<figure>
+    <img src="1_8.PNG"/> <figcaption>
+            <h4>FIGURE 1.8: The geometrical relationship between joint rates and velocity of the end-effector can be described in a matrix called the Jacobian.</h4>
+        </figcaption>
+</figure>
+
+<p>Consider the rear gunner in a World War I–vintage biplane fighter plane (illustrated in Fig. 1.9). While the pilot flies the plane from the front cockpit, the rear gunner’s job is to shoot at enemy aircraft. To perform this task, his gun is mounted in a mechanism that rotates about two axes, the motions being called azimuth and elevation. Using these two motions (two degrees of freedom), the gunner can direct his stream of bullets in any direction he desires in the upper hemisphere.</p>
+<figure>
+    <img src="1_9.PNG"/> <figcaption>
+            <h4>FIGURE 1.9: A World War I biplane with a pilot and a rear gunner. The rear-gunner mechanism is subject to the problem of singular positions.</h4>
+        </figcaption>
+</figure>
+
+<p>An enemy plane is spotted at azimuth one o’clock and elevation 25 degrees! The gunner trains his stream of bullets on the enemy plane and tracks its motion so as to hit it with a continuous stream of bullets for as long as possible. He succeeds and thereby downs the enemy aircraft.</p>
+<p>A second enemy plane is seen at azimuth one o’clock and elevation 70 degrees! The gunner orients his gun and begins firing. The enemy plane is moving so as to obtain a higher and higher elevation relative to the gunner’s plane. Soon the enemy plane is passing nearly overhead. What’s this? The gunner is no longer able to keep his stream of bullets trained on the enemy plane! He found that, as the enemy plane flew overhead, he was required to change his azimuth at a very high rate. He was not able to swing his gun in azimuth quickly enough, and the enemy plane escaped!</p>
+<p>In the latter scenario, the lucky enemy pilot was saved by a <em>singularity</em>! The gun’s orienting mechanism, while working well over most of its operating range, becomes less than ideal when the gun is directed straight upwards or nearly so. To track targets that pass through the position directly overhead, a very fast motion around the azimuth axis is required. The closer the target passes to the point directly overhead, the faster the gunner must turn the azimuth axis to track the target. If the target flies directly over the gunner’s head, he would have to spin the gun on its azimuth axis at infinite speed!</p>
+<p>Should the gunner complain to the mechanism designer about this problem? Could a better mechanism be designed to avoid this problem? It turns out that you really can’t avoid the problem very easily. In fact, any two-degree-of-freedom orienting mechanism that has exactly two rotational joints cannot avoid having this problem. In the case of this mechanism, with the stream of bullets directed straight up, their direction aligns with the axis of rotation of the azimuth rotation.</p>
+<p>This means that, at exactly this point, the azimuth rotation does not cause a change in the direction of the stream of bullets. We know we need two degrees of freedom to orient the stream of bullets, but, at this point, we have lost the effective use of one of the joints. Our mechanism has become <strong>locally degenerate</strong> at this location and behaves as if it only has one degree of freedom (the elevation direction).</p>
+<p>This kind of phenomenon is caused by what is called a <strong>singularity of the mechanism</strong>. All mechanisms are prone to these difficulties, including robots. Just as with the rear gunner’s mechanism, these singularity conditions do not prevent a robot arm from positioning anywhere within its workspace. However, they can cause problems with <em>motions</em> of the arm in their neighborhood.</p>
+<p>Manipulators do not always move through space; sometimes they are also required to touch a workpiece or work surface and apply a static force. In this case the problem arises: Given a desired contact force and moment, what set of <strong>joint torques</strong> is required to generate them? Once again, the Jacobian matrix of the manipulator arises quite naturally in the solution of this problem.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents"></nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+{
+  "name": "Introduction to Robotics and Control documentation site",
+  "short_name": "Introduction to Robotics and Control documentation site",
+  "start_url": "/booktest/",
+  "scope": "/booktest/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/booktest/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
